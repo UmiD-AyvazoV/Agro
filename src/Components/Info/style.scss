@@ -1,0 +1,168 @@
+.agroInfo {
+  background: url("../../Assets/img/Info/bg.png") no-repeat;
+  background-size: cover;
+  width: 99vw;
+  height: 100vh;
+  position: relative;
+  z-index: 9999;
+  .container {
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    .agroTitle {
+      font-family: "Fira Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 64px;
+      line-height: 77px;
+      text-transform: uppercase;
+      color: #fff;
+      margin-bottom: 100px;
+    }
+
+    .box {
+      position: relative;
+      display: flex;
+
+      .imgs .img {
+        width: 400px;
+        height: 107px;
+        background: #f2f2f2;
+        border-radius: 50px 0 0 50px;
+        cursor: pointer;
+        position: relative;
+        transition: 0.5s all ease-in-out;
+      }
+
+      .imgs .img:nth-child(2) {
+        margin: 25px 0;
+      }
+
+      .imgs .img:after {
+        content: "";
+        position: absolute;
+        top: 12%;
+        left: 1%;
+        width: 75px;
+        height: 75px;
+        background: #3eb549;
+        border-radius: 50%;
+        z-index: 1;
+        transition: 0.5s all ease-in-out;
+      }
+
+      .imgs .img .bg {
+        background: url("../../Assets/img/Info/1.png") no-repeat;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 22%;
+        left: 5%;
+        z-index: 2;
+      }
+
+      .imgs .img:nth-child(2) .bg {
+        background: url("../../Assets/img/Info/2.png") no-repeat;
+        top: 25%;
+      }
+
+      .imgs .img:nth-child(3) .bg {
+        background: url("../../Assets/img/Info/3.png") no-repeat;
+        top: 25%;
+      }
+
+      .imgs .img h2 {
+        font-family: "Fira Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        text-transform: uppercase;
+        color: #3eb549;
+        position: absolute;
+        top: 30%;
+        left: 22%;
+      }
+
+      /* State */
+
+      .imgs .img.zeroOn {
+        background: #f2f2f2;
+      }
+
+      .imgs .img.zeroOn:after {
+        background: #3eb549;
+      }
+
+      .imgs .img.zeroOf {
+        background: transparent;
+      }
+
+      .imgs .img.zeroOf:after {
+        background: rgba(255, 255, 255, 0.24);
+      }
+
+      .imgs .img.zeroOf:hover:after {
+        background: #1f344f;
+      }
+
+      .imgs .img.zeroOf:hover {
+        background: rgba(255, 255, 255, 0.24);
+      }
+
+      .content {
+        background: #f2f2f2;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        max-width: 596px;
+        width: 100%;
+        padding: 26px 0 152px 56px;
+        margin-top: -50px;
+      }
+
+      .content p {
+        max-width: 430px;
+        margin-top: 25px;
+      }
+
+      .content .upTitle h2 {
+        font-family: "Fira Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 77px;
+        text-transform: uppercase;
+        color: #1f344f;
+      }
+
+      .content .upTitle p {
+        font-family: "Fira Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #333333;
+      }
+
+      .content .downTitle h2 {
+        font-family: "Fira Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        color: #1f344f;
+        margin-top: 59px;
+      }
+
+      .content .downTitle p {
+        font-family: "Fira Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #333333;
+      }
+    }
+  }
+}

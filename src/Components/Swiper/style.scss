@@ -1,0 +1,49 @@
+.galeryTitle {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 75px 100px 90px;
+  text-align: center;
+  position: relative;
+  .react-multiple-carousel__arrow {
+    background-color: red;
+  }
+  h2 {
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    text-transform: uppercase;
+    color: #3eb549;
+    margin-bottom: 37px;
+  }
+  p {
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #333;
+    margin: 25px 0 49px;
+  }
+  .btn {
+    text-align: right;
+    a {
+      background: #3eb549;
+      border-radius: 54px;
+      font-family: "Fira Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: #fff;
+      padding: 16px 64px;
+      display: inline-block;
+      transition: 0.5s linear;
+    }
+    a:hover {
+      background: #1f344f;
+    }
+  }
+}

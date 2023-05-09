@@ -1,0 +1,45 @@
+.banner .container .title {
+    max-width: 722px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    z-index: 1;
+}
+
+.banner .container .title h2 {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.banner .container .title p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #fff;
+  margin: 35px 0 56px;
+}
+
+.banner .container .title a {
+  background: #1f344f;
+  border-radius: 54px;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #fff;
+  display: inline-block;
+  padding: 22px 114px;
+  transition: .5s linear;
+}
+
+.banner .container .title a:hover {
+  background: #3EB549;
+}
